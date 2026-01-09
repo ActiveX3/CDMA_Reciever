@@ -1,0 +1,6 @@
+C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/build/DebugNoOpt/CMakeFiles/CDMA_RX.axf.dir
+C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/build/DebugNoOpt/CMakeFiles/edit_cache.dir
+C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/build/DebugNoOpt/CMakeFiles/rebuild_cache.dir
+C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/build/DebugNoOpt/lib_dsp/CMakeFiles/CMSISDSP.dir
+C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/build/DebugNoOpt/lib_dsp/CMakeFiles/edit_cache.dir
+C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/build/DebugNoOpt/lib_dsp/CMakeFiles/rebuild_cache.dir

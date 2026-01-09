@@ -1,0 +1,102 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lib_dsp",
+					"jsonFile" : "directory-lib_dsp-Debug-466640634a12c222485a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "CMSIS_DSP/Source",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CDMA_RX",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "CMSISDSP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CDMA_RX.axf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CDMA_RX.axf-Debug-3d55f4dc1d0ced9ced05.json",
+					"name" : "CDMA_RX.axf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CMSISDSP::@a3468f6ec984e4d9a592",
+					"jsonFile" : "target-CMSISDSP-Debug-cec02845c053bfd726e6.json",
+					"name" : "CMSISDSP",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/build/DebugNoOpt",
+		"source" : "C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
