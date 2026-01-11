@@ -5250,7 +5250,7 @@ Disassembly of section .text:
     3134:	1ffd07b8 	.word	0x1ffd07b8
     3138:	1ffd0ac4 	.word	0x1ffd0ac4
 
-0000313c <_GLOBAL__sub_I_MY_CODE>:
+0000313c <_GLOBAL__sub_I_rx_buffer>:
     313c:	b580      	push	{r7, lr}
     313e:	af00      	add	r7, sp, #0
     3140:	f7ff ffee 	bl	3120 <__static_initialization_and_destruction_0()>
@@ -16366,11 +16366,11 @@ Disassembly of section .text:
     a280:	5245204c 	.word	0x5245204c
     a284:	0a524f52 	.word	0x0a524f52
     a288:	00000000 	.word	0x00000000
-    a28c:	323a3630 	.word	0x323a3630
-    a290:	32333a33 	.word	0x32333a33
+    a28c:	353a3131 	.word	0x353a3131
+    a290:	37343a34 	.word	0x37343a34
     a294:	00000000 	.word	0x00000000
     a298:	206e614a 	.word	0x206e614a
-    a29c:	32203820 	.word	0x32203820
+    a29c:	32203131 	.word	0x32203131
     a2a0:	00363230 	.word	0x00363230
     a2a4:	202c7325 	.word	0x202c7325
     a2a8:	000a7325 	.word	0x000a7325

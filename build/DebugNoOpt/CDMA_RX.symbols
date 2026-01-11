@@ -214,11 +214,11 @@
 00002ee0 0000002c T fatal_error()	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/utils/debug_utils.cpp:39
 00002f0c 00000050 W convert_audio_sample_to_2ch(unsigned long*, short*, short*)	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/utils/platform.h:70
 00002f5c 0000005c W convert_2ch_to_audio_sample(short*, short*, unsigned long*)	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/utils/platform.h:87
-00002fb8 00000118 T main	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:58
-000030d0 00000028 T get_new_tx_buffer_ptr()	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:112
-000030f8 00000028 T get_new_rx_buffer_ptr()	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:124
-00003120 0000001c t __static_initialization_and_destruction_0()	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:132
-0000313c 0000000a t _GLOBAL__sub_I_MY_CODE
+00002fb8 00000118 T main	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:23
+000030d0 00000028 T get_new_tx_buffer_ptr()	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:96
+000030f8 00000028 T get_new_rx_buffer_ptr()	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:108
+00003120 0000001c t __static_initialization_and_destruction_0()	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:116
+0000313c 0000000a t _GLOBAL__sub_I_rx_buffer
 00003148 0000003c t __NVIC_EnableIRQ	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/CMSIS/Core/Include/core_cm4.h:1794
 00003184 00000048 t __NVIC_DisableIRQ	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/CMSIS/Core/Include/core_cm4.h:1832
 000031cc 00000036 T CircularBuffer::CircularBuffer()	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/circular_buffer.cpp:9
@@ -411,14 +411,14 @@
 1ffd077c 00000002 B u16LeftHpOut	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/PDL/wm8731.c:61
 1ffd077e 00000002 B u16RightHpOut	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/PDL/wm8731.c:61
 1ffd0780 00000038 B stcDES	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/utils/platform.cpp:105
-1ffd07b8 0000030c B rx_buffer	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:45
-1ffd0ac4 0000030c B tx_buffer	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:46
-1ffd0dd0 00000100 B in	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:50
-1ffd0ed0 00000100 B out	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:51
-1ffd0fd0 00000080 B left_in	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:52
-1ffd1050 00000080 B right_in	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:53
-1ffd10d0 00000080 B left_out	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:54
-1ffd1150 00000080 B right_out	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:55
+1ffd07b8 0000030c B rx_buffer	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:10
+1ffd0ac4 0000030c B tx_buffer	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:11
+1ffd0dd0 00000100 B in	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:15
+1ffd0ed0 00000100 B out	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:16
+1ffd0fd0 00000080 B left_in	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:17
+1ffd1050 00000080 B right_in	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:18
+1ffd10d0 00000080 B left_out	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:19
+1ffd1150 00000080 B right_out	C:/Users/jc7x9/OneDrive/Dokumente/HSKA-Leno/6. Semester/Digitale Signalprozessoren/Workspace/DSP_Project_CDMA/CDMA_Reciever/main.cpp:20
 1ffd11d0 b completed.1
 1ffd11d4 b object.0
 1ffd11ec 00000138 B __sf

@@ -1246,32 +1246,40 @@ Discarded input sections
  .group         0x00000000        0xc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .group         0x00000000        0xc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .group         0x00000000        0xc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .text          0x00000000        0x0 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .data          0x00000000        0x0 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .rodata._ZL6CODE_A
-                0x00000000       0x18 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .rodata._ZL6CODE_B
-                0x00000000       0x18 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .data.MY_CODE  0x00000000        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .bss.current_state
-                0x00000000        0x1 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .bss.search_window
-                0x00000000       0x18 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .bss.chip_index
-                0x00000000        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .bss.accumulator
-                0x00000000        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .bss.current_audio_out
-                0x00000000        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .data.average_noise_level
-                0x00000000        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000      0xbbc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x75 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x9e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x38c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x119 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x1e5 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x138 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x1f2 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x402 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000      0x877 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x8e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x51 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000      0x103 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x6a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000      0x1df CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
@@ -1294,28 +1302,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000      0x16f CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x52 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x7b CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x2a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000      0x38c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x4a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x58 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000      0x1e5 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000      0x138 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000      0x1f2 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000      0x402 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x8e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x2e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x18 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
@@ -2367,7 +2353,7 @@ END GROUP
                 0x000030f8                get_new_rx_buffer_ptr()
  .text._Z41__static_initialization_and_destruction_0v
                 0x00003120       0x1c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .text._GLOBAL__sub_I_MY_CODE
+ .text._GLOBAL__sub_I_rx_buffer
                 0x0000313c        0xa CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  *fill*         0x00003146        0x2 
  .text.__NVIC_EnableIRQ
@@ -2967,7 +2953,7 @@ END GROUP
 OUTPUT(CDMA_RX.axf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000    0x442d6
+.debug_info     0x00000000    0x441ed
  .debug_info    0x00000000      0x2d9 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
  .debug_info    0x000002d9      0x106 CMakeFiles/CDMA_RX.axf.dir/PDL/pdl.c.obj
  .debug_info    0x000003df     0x79a1 CMakeFiles/CDMA_RX.axf.dir/PDL/system_s6e2cc.c.obj
@@ -2981,10 +2967,10 @@ LOAD linker stubs
  .debug_info    0x00025eb8    0x16baf CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
  .debug_info    0x0003ca67     0x1a2a CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
  .debug_info    0x0003e491     0x2385 CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
- .debug_info    0x00040816     0x1c9d CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_info    0x000424b3     0x1e23 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+ .debug_info    0x00040816     0x1bb4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_info    0x000423ca     0x1e23 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
-.debug_abbrev   0x00000000     0x2555
+.debug_abbrev   0x00000000     0x2540
  .debug_abbrev  0x00000000      0x20d CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
  .debug_abbrev  0x0000020d       0x8b CMakeFiles/CDMA_RX.axf.dir/PDL/pdl.c.obj
  .debug_abbrev  0x00000298      0x1d9 CMakeFiles/CDMA_RX.axf.dir/PDL/system_s6e2cc.c.obj
@@ -2998,8 +2984,8 @@ LOAD linker stubs
  .debug_abbrev  0x000014ab      0x487 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
  .debug_abbrev  0x00001932      0x28e CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
  .debug_abbrev  0x00001bc0      0x2ea CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
- .debug_abbrev  0x00001eaa      0x364 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_abbrev  0x0000220e      0x347 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+ .debug_abbrev  0x00001eaa      0x34f CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_abbrev  0x000021f9      0x347 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
 .debug_aranges  0x00000000      0x688
  .debug_aranges
@@ -3066,7 +3052,7 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000483       0x41 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
-.debug_macro    0x00000000    0x44654
+.debug_macro    0x00000000    0x444a1
  .debug_macro   0x00000000       0xd6 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
  .debug_macro   0x000000d6      0xae4 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
  .debug_macro   0x00000bba      0x877 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
@@ -3188,9 +3174,8 @@ LOAD linker stubs
  .debug_macro   0x000431b8      0x4a1 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
  .debug_macro   0x00043659      0x4ba CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
  .debug_macro   0x00043b13       0x4c CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
- .debug_macro   0x00043b5f      0x4bd CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x0004401c      0x197 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x000441b3      0x4a1 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+ .debug_macro   0x00043b5f      0x4a1 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00044000      0x4a1 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
 .debug_line     0x00000000     0xabda
  .debug_line    0x00000000      0x63d CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
@@ -3209,23 +3194,23 @@ LOAD linker stubs
  .debug_line    0x00008c42      0xf58 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_line    0x00009b9a     0x1040 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
-.debug_str      0x00000000   0x1d7387
- .debug_str     0x00000000   0x1d7387 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
+.debug_str      0x00000000   0x1d72cd
+ .debug_str     0x00000000   0x1d72cd CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
                              0x17e23d (size before relaxing)
- .debug_str     0x001d7387   0x1b1190 CMakeFiles/CDMA_RX.axf.dir/PDL/pdl.c.obj
- .debug_str     0x001d7387   0x1b3ccc CMakeFiles/CDMA_RX.axf.dir/PDL/system_s6e2cc.c.obj
- .debug_str     0x001d7387   0x1b99b0 CMakeFiles/CDMA_RX.axf.dir/PDL/mfs.c.obj
- .debug_str     0x001d7387   0x1b8a01 CMakeFiles/CDMA_RX.axf.dir/PDL/clk.c.obj
- .debug_str     0x001d7387   0x1b9fd1 CMakeFiles/CDMA_RX.axf.dir/PDL/dstc.c.obj
- .debug_str     0x001d7387   0x1b8cd0 CMakeFiles/CDMA_RX.axf.dir/PDL/i2s.c.obj
- .debug_str     0x001d7387   0x1be839 CMakeFiles/CDMA_RX.axf.dir/PDL/interrupts_fm4_type_b.c.obj
- .debug_str     0x001d7387   0x1badae CMakeFiles/CDMA_RX.axf.dir/PDL/wm8731.c.obj
- .debug_str     0x001d7387     0x7895 CMakeFiles/CDMA_RX.axf.dir/utils/crt_dummy_syscalls.c.obj
- .debug_str     0x001d7387   0x1c9137 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
- .debug_str     0x001d7387   0x1c12ac CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
- .debug_str     0x001d7387   0x1c1862 CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
- .debug_str     0x001d7387   0x1c168a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_str     0x001d7387   0x1c1a28 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+ .debug_str     0x001d72cd   0x1b1190 CMakeFiles/CDMA_RX.axf.dir/PDL/pdl.c.obj
+ .debug_str     0x001d72cd   0x1b3ccc CMakeFiles/CDMA_RX.axf.dir/PDL/system_s6e2cc.c.obj
+ .debug_str     0x001d72cd   0x1b99b0 CMakeFiles/CDMA_RX.axf.dir/PDL/mfs.c.obj
+ .debug_str     0x001d72cd   0x1b8a01 CMakeFiles/CDMA_RX.axf.dir/PDL/clk.c.obj
+ .debug_str     0x001d72cd   0x1b9fd1 CMakeFiles/CDMA_RX.axf.dir/PDL/dstc.c.obj
+ .debug_str     0x001d72cd   0x1b8cd0 CMakeFiles/CDMA_RX.axf.dir/PDL/i2s.c.obj
+ .debug_str     0x001d72cd   0x1be839 CMakeFiles/CDMA_RX.axf.dir/PDL/interrupts_fm4_type_b.c.obj
+ .debug_str     0x001d72cd   0x1badae CMakeFiles/CDMA_RX.axf.dir/PDL/wm8731.c.obj
+ .debug_str     0x001d72cd     0x7895 CMakeFiles/CDMA_RX.axf.dir/utils/crt_dummy_syscalls.c.obj
+ .debug_str     0x001d72cd   0x1c9137 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
+ .debug_str     0x001d72cd   0x1c12ac CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
+ .debug_str     0x001d72cd   0x1c1862 CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
+ .debug_str     0x001d72cd   0x1c15cc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_str     0x001d72cd   0x1c1a28 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
