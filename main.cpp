@@ -14,18 +14,18 @@ int16_t right_in[BLOCK_SIZE];
 int16_t left_out[BLOCK_SIZE];
 int16_t right_out[BLOCK_SIZE];
 
-// -----------------------------------------------------------------------------
+
 // CDMA Receiver: Codes, Kanalwahl, Shift-Suche, Despreading
-// -----------------------------------------------------------------------------
+
 
 #define code_length 8
 
-// Inhalt kann geändert werden, einfacher Spreizcode zu Testzwecken.
+// einfacher Spreizcode zu Testzwecken
 const int CODE_1[] = { -1, -1,  1,  1, -1, -1,  1,  1 };
 const int CODE_2[] = { -1,  1, -1,  1, -1,  1, -1,  1 };
 const int CODE_3[] = { -1, -1, -1, -1,  1,  1,  1,  1 };
 
-// Shift-Suche wird nicht in jedem Block ausgeführt (Rechenzeitersparnis)
+// Shift-Suche wird nicht in jedem Block ausgeführt 
 static constexpr int SHIFT_SEARCH_PERIOD = 4;      // alle 4 Blöcke
 static constexpr int32_t ENERGY_MIN_THRESHOLD = 500000; // wenn Energie klein ist, wird früher gesucht
 
@@ -41,10 +41,9 @@ int main()
     // initialze whole platform, does not start DMA
     init_platform(115200, hz48000, line_in);
 
-    // use debug_printf() to send data to a Serial Monitor
+    // used to send data to a Serial Monitor
     debug_printf("%s, %s\n", __DATE__, __TIME__);
 
-    // function calls surrounded by IF_DEBUG() will be removed when building a Release
     IF_DEBUG(debug_printf("Hello World!\n"));
 
     // init test pin P10 to LOW; can be found on the board as part of the connector CN10, Pin is labelled as A3
@@ -57,7 +56,7 @@ int main()
     std::memset(in,  0, sizeof(in));
     std::memset(out, 0, sizeof(out));
 
-    // start I2S, call just before your main loop
+    // start I2S, call just befor main loop
     // this command starts the DMA, which will begin transferring data to and from the rx_buffer and tx_buffer
     platform_start();
 
@@ -75,7 +74,7 @@ int main()
 
     while(true)
     {
-        // step 1: read block of samples from input buffer, data is copied from rx_buffer to in
+        // step 1: read block of samples from input buffer, data is copied from rxbuffer to in
         while(!rx_buffer.read(in));
 
         // blue LED is used to visualize (processing time)/(sample time)
@@ -85,9 +84,7 @@ int main()
         // step 2: split samples into two channels
         convert_audio_sample_to_2ch(in, left_in, right_in);
 
-        // ---------------------------------------------------------------------
         // Kanalwahl per USER_BUTTON
-        // ---------------------------------------------------------------------
         if(gpio_get(USER_BUTTON) == 0)
         {
             isPressed = true;
@@ -118,9 +115,7 @@ int main()
             isPressed = false;
         }
 
-        // ---------------------------------------------------------------------
         // Stereo-Mix + DC-Removal (Mittelwert pro Block)
-        // ---------------------------------------------------------------------
         // Mono-Mix als 32-bit Werte (sicher vor Überlauf)
         int32_t mono32[BLOCK_SIZE];
 
@@ -140,9 +135,7 @@ int main()
             mono32[i] -= dc;
         }
 
-        // ---------------------------------------------------------------------
         // Besten Shift finden (Alignment) - periodisch / bei niedriger Energie
-        // ---------------------------------------------------------------------
         int best_candidate = active_shift;
         int32_t max_energy = -1;
         int32_t current_active_energy = 0;
@@ -207,9 +200,7 @@ int main()
 
         block_counter++;
 
-        // ---------------------------------------------------------------------
         // Despreading + Ausgabe (Mono)
-        // -----------------------------------------------------------------------------
         int32_t acc = 0;
 
         for(int n = 0; n < (int)BLOCK_SIZE; n++)
@@ -252,8 +243,6 @@ int main()
     fatal_error();
     return 0;
 }
-
-// the following functions are called, when the DMA has finished transferring one block of samples and needs a new memory address to write/read to/from
 
 // prototype defined in platform.h
 // get new memory address to read new data to send it to DAC
