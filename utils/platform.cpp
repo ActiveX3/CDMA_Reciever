@@ -85,8 +85,8 @@ init_codec(
 	wm8731_config.RESET	= 0X0;
 	wm8731_config.LLIN 	= 0x17;				//0x17, Left Line In. Select gain 0dB.
 	wm8731_config.RLIN 	= 0x17;				//0x17, Right Line In. Select gain 0dB.
-	wm8731_config.LHOUT = 0x78;				//Left Headphone Out. Select volume; 78=-1db, 7F=+6dB, 30=-73dB; 79 steps, 1dB each.
-	wm8731_config.RHOUT = 0x78;				//Right Headphone Out (2F = mute)
+	wm8731_config.LHOUT = 0x7B;				//Left Headphone Out. Select volume; 78=-1db, 7F=+6dB, 30=-73dB; 79 steps, 1dB each.
+	wm8731_config.RHOUT = 0x7B;				//Right Headphone Out (2F = mute)
 	wm8731_config.AAPC 	= audio_in;			//Select input; LINE in or microphone in.
 	wm8731_config.DAPC 	= 0x00 ; 			//Audio Path Control, high pass filter, no soft mute.
 	wm8731_config.DAIF 	= 0x53; 			//Format; 16 bits; DSP data format. I2S format works for the s6e2CC with 48 KHz sampling rate only

@@ -931,8 +931,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
  .data          0x00000000        0x0 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
- .text._Z8gpio_get9user_gpio
-                0x00000000       0x78 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
  .text._Z32pseudo_random_sequence_generatorv
                 0x00000000       0x88 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
  .text._Z8delay_msj
@@ -1246,32 +1244,40 @@ Discarded input sections
  .group         0x00000000        0xc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .group         0x00000000        0xc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .group         0x00000000        0xc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .text          0x00000000        0x0 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .data          0x00000000        0x0 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .rodata._ZL6CODE_A
-                0x00000000       0x18 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .rodata._ZL6CODE_B
-                0x00000000       0x18 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .data.MY_CODE  0x00000000        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .bss.current_state
-                0x00000000        0x1 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .bss.search_window
-                0x00000000       0x18 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .bss.chip_index
-                0x00000000        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .bss.accumulator
-                0x00000000        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .bss.current_audio_out
-                0x00000000        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .data.average_noise_level
-                0x00000000        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000      0xbbc CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x75 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x9e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x38c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x119 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x1e5 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x138 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x1f2 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000      0x402 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000      0x877 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x8e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x51 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000      0x103 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x6a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000      0x1df CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
@@ -1294,28 +1300,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000      0x16f CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x52 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x7b CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x2a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000      0x38c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x4a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x58 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000      0x1e5 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000      0x138 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000      0x1f2 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000      0x402 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x00000000       0x8e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x2e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .debug_macro   0x00000000       0x18 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
@@ -1999,7 +1983,7 @@ LOAD C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP
 LOAD C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libm.a
 END GROUP
 
-.text           0x00000000     0xa758
+.text           0x00000000     0xaa20
  *(.vectors)
  .vectors       0x00000000      0x240 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
                 0x00000000                __Vectors
@@ -2322,369 +2306,374 @@ END GROUP
                 0x00002604       0xa4 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
                 0x00002604                init_codec(sampling_rate, audio_input)
  .text._Z9init_dstcv
-                0x000026a8      0x2f4 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
+                0x000026a8      0x2dc CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
                 0x000026a8                init_dstc()
  .text._Z6isr_txv
-                0x0000299c       0x30 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
-                0x0000299c                isr_tx()
+                0x00002984       0x30 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
+                0x00002984                isr_tx()
  .text._Z6isr_rxv
-                0x000029cc       0x30 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
-                0x000029cc                isr_rx()
+                0x000029b4       0x30 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
+                0x000029b4                isr_rx()
  .text._Z9init_I2S013sampling_rate
-                0x000029fc      0x228 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
-                0x000029fc                init_I2S0(sampling_rate)
+                0x000029e4      0x228 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
+                0x000029e4                init_I2S0(sampling_rate)
  .text._Z10init_uart0m
-                0x00002c24       0xc4 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
-                0x00002c24                init_uart0(unsigned long)
+                0x00002c0c       0xc4 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
+                0x00002c0c                init_uart0(unsigned long)
  .text._Z9init_gpiov
-                0x00002ce8      0x10c CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
-                0x00002ce8                init_gpio()
+                0x00002cd0      0x10c CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
+                0x00002cd0                init_gpio()
  .text._Z8gpio_set9user_gpioh
-                0x00002df4       0x70 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
-                0x00002df4                gpio_set(user_gpio, unsigned char)
+                0x00002ddc       0x70 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
+                0x00002ddc                gpio_set(user_gpio, unsigned char)
+ .text._Z8gpio_get9user_gpio
+                0x00002e4c       0x78 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
+                0x00002e4c                gpio_get(user_gpio)
  .text._Z11write_uart0PKc
-                0x00002e64       0x4c CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
-                0x00002e64                write_uart0(char const*)
+                0x00002ec4       0x4c CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
+                0x00002ec4                write_uart0(char const*)
  .text._Z12debug_printfPKcz
-                0x00002eb0       0x30 CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
-                0x00002eb0                debug_printf(char const*, ...)
+                0x00002f10       0x30 CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
+                0x00002f10                debug_printf(char const*, ...)
  .text._Z11fatal_errorv
-                0x00002ee0       0x2c CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
-                0x00002ee0                fatal_error()
+                0x00002f40       0x2c CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
+                0x00002f40                fatal_error()
  .text._Z27convert_audio_sample_to_2chPmPsS0_
-                0x00002f0c       0x50 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x00002f0c                convert_audio_sample_to_2ch(unsigned long*, short*, short*)
+                0x00002f6c       0x52 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x00002f6c                convert_audio_sample_to_2ch(unsigned long*, short*, short*)
  .text._Z27convert_2ch_to_audio_samplePsS_Pm
-                0x00002f5c       0x5c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x00002f5c                convert_2ch_to_audio_sample(short*, short*, unsigned long*)
- .text.main     0x00002fb8      0x118 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x00002fb8                main
+                0x00002fbe       0x5e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x00002fbe                convert_2ch_to_audio_sample(short*, short*, unsigned long*)
+ .text.main     0x0000301c      0x2d4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x0000301c                main
  .text._Z21get_new_tx_buffer_ptrv
-                0x000030d0       0x28 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x000030d0                get_new_tx_buffer_ptr()
+                0x000032f0       0x28 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x000032f0                get_new_tx_buffer_ptr()
  .text._Z21get_new_rx_buffer_ptrv
-                0x000030f8       0x28 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x000030f8                get_new_rx_buffer_ptr()
+                0x00003318       0x28 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x00003318                get_new_rx_buffer_ptr()
  .text._Z41__static_initialization_and_destruction_0v
-                0x00003120       0x1c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .text._GLOBAL__sub_I_MY_CODE
-                0x0000313c        0xa CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- *fill*         0x00003146        0x2 
+                0x00003340       0x1c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .text._GLOBAL__sub_I_rx_buffer
+                0x0000335c        0xa CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ *fill*         0x00003366        0x2 
  .text.__NVIC_EnableIRQ
-                0x00003148       0x3c CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+                0x00003368       0x3c CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
  .text.__NVIC_DisableIRQ
-                0x00003184       0x48 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+                0x000033a4       0x48 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
  .text._ZN14CircularBufferC2Ev
-                0x000031cc       0x36 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
-                0x000031cc                CircularBuffer::CircularBuffer()
-                0x000031cc                CircularBuffer::CircularBuffer()
+                0x000033ec       0x36 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+                0x000033ec                CircularBuffer::CircularBuffer()
+                0x000033ec                CircularBuffer::CircularBuffer()
  .text._ZN14CircularBuffer4initEv
-                0x00003202       0x1e CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
-                0x00003202                CircularBuffer::init()
+                0x00003422       0x1e CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+                0x00003422                CircularBuffer::init()
  .text._ZN14CircularBuffer4readEPm
-                0x00003220       0x94 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
-                0x00003220                CircularBuffer::read(unsigned long*)
+                0x00003440       0x96 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+                0x00003440                CircularBuffer::read(unsigned long*)
  .text._ZN14CircularBuffer12get_read_ptrEv
-                0x000032b4       0x9e CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
-                0x000032b4                CircularBuffer::get_read_ptr()
+                0x000034d6       0x9e CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+                0x000034d6                CircularBuffer::get_read_ptr()
  .text._ZN14CircularBuffer5writeEPm
-                0x00003352       0x9e CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
-                0x00003352                CircularBuffer::write(unsigned long*)
+                0x00003574       0xa0 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+                0x00003574                CircularBuffer::write(unsigned long*)
  .text._ZN14CircularBuffer13get_write_ptrEv
-                0x000033f0       0x98 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
-                0x000033f0                CircularBuffer::get_write_ptr()
- .text          0x00003488       0x7c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crt0.o
-                0x00003488                _stack_init
-                0x00003490                _start
-                0x00003490                _mainCRTStartup
+                0x00003614       0x98 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+                0x00003614                CircularBuffer::get_write_ptr()
+ .text          0x000036ac       0x7c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crt0.o
+                0x000036ac                _stack_init
+                0x000036b4                _start
+                0x000036b4                _mainCRTStartup
  .text.deregister_tm_clones
-                0x00003504       0x1c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
+                0x00003728       0x1c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
  .text.register_tm_clones
-                0x00003520       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
+                0x00003744       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
  .text.__do_global_dtors_aux
-                0x00003544       0x28 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
+                0x00003768       0x28 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
  .text.frame_dummy
-                0x0000356c       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
- .text.exit     0x00003590       0x1c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-exit.o)
-                0x00003590                exit
+                0x00003790       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
+ .text.exit     0x000037b4       0x1c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-exit.o)
+                0x000037b4                exit
  .text.stdio_exit_handler
-                0x000035ac       0x18 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x000037d0       0x18 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
  .text.cleanup_stdio
-                0x000035c4       0x40 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x000037e8       0x40 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
  .text.global_stdio_init.part.0
-                0x00003604       0xf0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
- .text.__sinit  0x000036f4       0x3c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-                0x000036f4                __sinit
+                0x00003828       0xf0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.__sinit  0x00003918       0x3c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x00003918                __sinit
  .text.__sfp_lock_acquire
-                0x00003730        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-                0x00003730                __sfp_lock_acquire
+                0x00003954        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x00003954                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0000373c        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-                0x0000373c                __sfp_lock_release
+                0x00003960        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x00003960                __sfp_lock_release
  .text._fwalk_sglue
-                0x00003748       0x44 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
-                0x00003748                _fwalk_sglue
- .text.__sread  0x0000378c       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
-                0x0000378c                __sread
+                0x0000396c       0x44 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+                0x0000396c                _fwalk_sglue
+ .text.__sread  0x000039b0       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                0x000039b0                __sread
  .text.__swrite
-                0x000037b0       0x40 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
-                0x000037b0                __swrite
- .text.__sseek  0x000037f0       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
-                0x000037f0                __sseek
+                0x000039d4       0x40 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                0x000039d4                __swrite
+ .text.__sseek  0x00003a14       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                0x00003a14                __sseek
  .text.__sclose
-                0x00003814        0x8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
-                0x00003814                __sclose
+                0x00003a38        0x8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                0x00003a38                __sclose
  .text.vsnprintf
-                0x0000381c       0x78 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vsnprintf.o)
-                0x0000381c                vsnprintf
- .text.memset   0x00003894       0xa4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
-                0x00003894                memset
+                0x00003a40       0x78 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vsnprintf.o)
+                0x00003a40                vsnprintf
+ .text.memset   0x00003ab8       0xa4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+                0x00003ab8                memset
  .text._close_r
-                0x00003938       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
-                0x00003938                _close_r
+                0x00003b5c       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+                0x00003b5c                _close_r
  .text._lseek_r
-                0x0000395c       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
-                0x0000395c                _lseek_r
- .text._read_r  0x00003988       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
-                0x00003988                _read_r
+                0x00003b80       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+                0x00003b80                _lseek_r
+ .text._read_r  0x00003bac       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+                0x00003bac                _read_r
  .text._write_r
-                0x000039b4       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
-                0x000039b4                _write_r
- .text.__errno  0x000039e0        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-errno.o)
-                0x000039e0                __errno
+                0x00003bd8       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+                0x00003bd8                _write_r
+ .text.__errno  0x00003c04        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-errno.o)
+                0x00003c04                __errno
  .text.__libc_init_array
-                0x000039ec       0x50 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
-                0x000039ec                __libc_init_array
+                0x00003c10       0x50 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+                0x00003c10                __libc_init_array
  .text.__retarget_lock_init_recursive
-                0x00003a3c        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x00003a3c                __retarget_lock_init_recursive
+                0x00003c60        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x00003c60                __retarget_lock_init_recursive
  .text.__retarget_lock_close_recursive
-                0x00003a40        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x00003a40                __retarget_lock_close_recursive
+                0x00003c64        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x00003c64                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire_recursive
-                0x00003a44        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x00003a44                __retarget_lock_acquire_recursive
+                0x00003c68        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x00003c68                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x00003a48        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x00003a48                __retarget_lock_release_recursive
+                0x00003c6c        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x00003c6c                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x00003a4c       0x14 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
+                0x00003c70       0x14 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
  .text.__call_exitprocs
-                0x00003a60       0xc0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
-                0x00003a60                __call_exitprocs
- .text.atexit   0x00003b20        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-atexit.o)
-                0x00003b20                atexit
+                0x00003c84       0xc0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
+                0x00003c84                __call_exitprocs
+ .text.atexit   0x00003d44        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-atexit.o)
+                0x00003d44                atexit
  .text._malloc_trim_r
-                0x00003b2c       0xb8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
-                0x00003b2c                _malloc_trim_r
- .text._free_r  0x00003be4      0x1f8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
-                0x00003be4                _free_r
+                0x00003d50       0xb8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                0x00003d50                _malloc_trim_r
+ .text._free_r  0x00003e08      0x1f8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                0x00003e08                _free_r
  .text._malloc_r
-                0x00003ddc      0x564 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-                0x00003ddc                _malloc_r
+                0x00004000      0x564 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                0x00004000                _malloc_r
  .text.__malloc_lock
-                0x00004340        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
-                0x00004340                __malloc_lock
+                0x00004564        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+                0x00004564                __malloc_lock
  .text.__malloc_unlock
-                0x0000434c        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
-                0x0000434c                __malloc_unlock
+                0x00004570        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+                0x00004570                __malloc_unlock
+ *fill*         0x0000457c        0x4 
  .text._svfprintf_r
-                0x00004358     0x1b3c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
-                0x00004358                _svfprintf_r
+                0x00004580     0x1b3c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
+                0x00004580                _svfprintf_r
  .text.__ssprint_r
-                0x00005e94       0x58 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-ssprint_r.o)
-                0x00005e94                __ssprint_r
+                0x000060bc       0x58 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-ssprint_r.o)
+                0x000060bc                __ssprint_r
  .text._fclose_r
-                0x00005eec       0xc0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
-                0x00005eec                _fclose_r
+                0x00006114       0xc0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+                0x00006114                _fclose_r
  .text.__sflush_r
-                0x00005fac      0x138 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
-                0x00005fac                __sflush_r
+                0x000061d4      0x138 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                0x000061d4                __sflush_r
  .text._fflush_r
-                0x000060e4       0x54 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
-                0x000060e4                _fflush_r
- .text.strncpy  0x00006138       0x68 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
-                0x00006138                strncpy
+                0x0000630c       0x54 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                0x0000630c                _fflush_r
+ .text.strncpy  0x00006360       0x68 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
+                0x00006360                strncpy
  .text.__locale_mb_cur_max
-                0x000061a0        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
-                0x000061a0                __locale_mb_cur_max
+                0x000063c8        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+                0x000063c8                __locale_mb_cur_max
  .text._localeconv_r
-                0x000061ac        0x8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
-                0x000061ac                _localeconv_r
- .text._sbrk_r  0x000061b4       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
-                0x000061b4                _sbrk_r
+                0x000063d4        0x8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
+                0x000063d4                _localeconv_r
+ .text._sbrk_r  0x000063dc       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+                0x000063dc                _sbrk_r
  .text.__libc_fini_array
-                0x000061d8       0x28 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fini.o)
-                0x000061d8                __libc_fini_array
- .text.sysconf  0x00006200       0x1c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
-                0x00006200                sysconf
- *fill*         0x0000621c        0x4 
- .text          0x00006220       0xa0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
-                0x00006220                memchr
- .text          0x000062c0       0xd8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
-                0x000062c0                strlen
- .text.frexp    0x00006398       0x64 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
-                0x00006398                frexp
+                0x00006400       0x28 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fini.o)
+                0x00006400                __libc_fini_array
+ .text.sysconf  0x00006428       0x1c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+                0x00006428                sysconf
+ *fill*         0x00006444        0xc 
+ .text          0x00006450       0xa0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
+                0x00006450                memchr
+ *fill*         0x000064f0       0x10 
+ .text          0x00006500       0xd8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
+                0x00006500                strlen
+ .text.frexp    0x000065d8       0x64 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
+                0x000065d8                frexp
  .text.__register_exitproc
-                0x000063fc       0x80 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
-                0x000063fc                __register_exitproc
- .text.quorem   0x0000647c      0x12c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
- .text._dtoa_r  0x000065a8      0xe80 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
-                0x000065a8                _dtoa_r
+                0x0000663c       0x80 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
+                0x0000663c                __register_exitproc
+ .text.quorem   0x000066bc      0x12c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+ .text._dtoa_r  0x000067e8      0xe80 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+                0x000067e8                _dtoa_r
  .text.__ascii_mbtowc
-                0x00007428       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
-                0x00007428                __ascii_mbtowc
- .text._Balloc  0x00007454       0x4c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x00007454                _Balloc
- .text._Bfree   0x000074a0       0x14 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x000074a0                _Bfree
+                0x00007668       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
+                0x00007668                __ascii_mbtowc
+ .text._Balloc  0x00007694       0x4c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x00007694                _Balloc
+ .text._Bfree   0x000076e0       0x14 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x000076e0                _Bfree
  .text.__multadd
-                0x000074b4       0xa0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x000074b4                __multadd
+                0x000076f4       0xa0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x000076f4                __multadd
  .text.__hi0bits
-                0x00007554       0x44 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x00007554                __hi0bits
+                0x00007794       0x44 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x00007794                __hi0bits
  .text.__lo0bits
-                0x00007598       0x60 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x00007598                __lo0bits
- .text.__i2b    0x000075f8       0x5c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x000075f8                __i2b
+                0x000077d8       0x60 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x000077d8                __lo0bits
+ .text.__i2b    0x00007838       0x5c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x00007838                __i2b
  .text.__multiply
-                0x00007654      0x16c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x00007654                __multiply
+                0x00007894      0x16c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x00007894                __multiply
  .text.__pow5mult
-                0x000077c0       0xb4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x000077c0                __pow5mult
+                0x00007a00       0xb4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x00007a00                __pow5mult
  .text.__lshift
-                0x00007874       0xf0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x00007874                __lshift
- .text.__mcmp   0x00007964       0x44 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x00007964                __mcmp
- .text.__mdiff  0x000079a8      0x178 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x000079a8                __mdiff
- .text.__d2b    0x00007b20       0xc0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x00007b20                __d2b
+                0x00007ab4       0xf0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x00007ab4                __lshift
+ .text.__mcmp   0x00007ba4       0x44 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x00007ba4                __mcmp
+ .text.__mdiff  0x00007be8      0x178 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x00007be8                __mdiff
+ .text.__d2b    0x00007d60       0xc0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x00007d60                __d2b
  .text.__ascii_wctomb
-                0x00007be0       0x1c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
-                0x00007be0                __ascii_wctomb
+                0x00007e20       0x1c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
+                0x00007e20                __ascii_wctomb
  .text._wcrtomb_r
-                0x00007bfc       0x4c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wcrtomb.o)
-                0x00007bfc                _wcrtomb_r
+                0x00007e3c       0x4c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wcrtomb.o)
+                0x00007e3c                _wcrtomb_r
  .text._wcsrtombs_r
-                0x00007c48       0x18 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsrtombs.o)
-                0x00007c48                _wcsrtombs_r
+                0x00007e88       0x18 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsrtombs.o)
+                0x00007e88                _wcsrtombs_r
  .text.__ssputs_r
-                0x00007c60       0xc0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-ssputs_r.o)
-                0x00007c60                __ssputs_r
- .text.memmove  0x00007d20      0x100 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
-                0x00007d20                memmove
- .text          0x00007e20      0x134 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
-                0x00007e20                memcpy
+                0x00007ea0       0xc0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-ssputs_r.o)
+                0x00007ea0                __ssputs_r
+ .text.memmove  0x00007f60      0x100 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
+                0x00007f60                memmove
+ .text          0x00008060      0x134 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
+                0x00008060                memcpy
  .text.__assert_func
-                0x00007f54       0x40 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
-                0x00007f54                __assert_func
+                0x00008194       0x40 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+                0x00008194                __assert_func
  .text._calloc_r
-                0x00007f94       0x6c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
-                0x00007f94                _calloc_r
+                0x000081d4       0x6c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
+                0x000081d4                _calloc_r
  .text._realloc_r
-                0x00008000      0x344 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
-                0x00008000                _realloc_r
+                0x00008240      0x344 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
+                0x00008240                _realloc_r
  .text._wcsnrtombs_l
-                0x00008344       0xfc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
-                0x00008344                _wcsnrtombs_l
+                0x00008584       0xfc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
+                0x00008584                _wcsnrtombs_l
  .text._wcsnrtombs_r
-                0x00008440       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
-                0x00008440                _wcsnrtombs_r
+                0x00008680       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
+                0x00008680                _wcsnrtombs_r
  .text.fiprintf
-                0x00008464       0x28 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
-                0x00008464                fiprintf
+                0x000086a4       0x28 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
+                0x000086a4                fiprintf
  .text._vfiprintf_r
-                0x0000848c      0xe68 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
-                0x0000848c                _vfiprintf_r
+                0x000086cc      0xe68 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x000086cc                _vfiprintf_r
  .text.__sbprintf
-                0x000092f4       0x80 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x00009534       0x80 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
  .text.__sprint_r
-                0x00009374       0x20 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
-                0x00009374                __sprint_r
+                0x000095b4       0x20 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
+                0x000095b4                __sprint_r
  .text.__sfvwrite_r
-                0x00009394      0x300 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
-                0x00009394                __sfvwrite_r
+                0x000095d4      0x300 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
+                0x000095d4                __sfvwrite_r
  .text.__swsetup_r
-                0x00009694       0xc4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
-                0x00009694                __swsetup_r
- .text.abort    0x00009758       0x10 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
-                0x00009758                abort
+                0x000098d4       0xc4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
+                0x000098d4                __swsetup_r
+ .text.abort    0x00009998       0x10 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
+                0x00009998                abort
  .text.__smakebuf_r
-                0x00009768       0xdc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
-                0x00009768                __smakebuf_r
- .text.raise    0x00009844       0x58 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
-                0x00009844                raise
+                0x000099a8       0xdc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
+                0x000099a8                __smakebuf_r
+ .text.raise    0x00009a84       0x58 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
+                0x00009a84                raise
  .text._fstat_r
-                0x0000989c       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
-                0x0000989c                _fstat_r
+                0x00009adc       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
+                0x00009adc                _fstat_r
  .text._isatty_r
-                0x000098c8       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
-                0x000098c8                _isatty_r
- .text._kill_r  0x000098ec       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
-                0x000098ec                _kill_r
+                0x00009b08       0x24 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
+                0x00009b08                _isatty_r
+ .text._kill_r  0x00009b2c       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+                0x00009b2c                _kill_r
  .text._getpid_r
-                0x00009918        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
-                0x00009918                _getpid_r
- .text._sbrk    0x0000991c       0x1c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
-                0x0000991c                _sbrk
- .text._exit    0x00009938        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
-                0x00009938                _exit
- .text          0x0000993c      0x378 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
-                0x0000993c                __aeabi_drsub
-                0x00009944                __aeabi_dsub
-                0x00009944                __subdf3
-                0x00009948                __aeabi_dadd
-                0x00009948                __adddf3
-                0x00009bc0                __floatunsidf
-                0x00009bc0                __aeabi_ui2d
-                0x00009be0                __floatsidf
-                0x00009be0                __aeabi_i2d
-                0x00009c04                __aeabi_f2d
-                0x00009c04                __extendsfdf2
-                0x00009c48                __floatundidf
-                0x00009c48                __aeabi_ul2d
-                0x00009c58                __floatdidf
-                0x00009c58                __aeabi_l2d
- .text          0x00009cb4      0x424 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
-                0x00009cb4                __aeabi_dmul
-                0x00009cb4                __muldf3
-                0x00009f08                __divdf3
-                0x00009f08                __aeabi_ddiv
- .text          0x0000a0d8      0x110 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
-                0x0000a0d8                __gtdf2
-                0x0000a0d8                __gedf2
-                0x0000a0e0                __ltdf2
-                0x0000a0e0                __ledf2
-                0x0000a0e8                __nedf2
-                0x0000a0e8                __eqdf2
-                0x0000a0e8                __cmpdf2
-                0x0000a164                __aeabi_cdrcmple
-                0x0000a174                __aeabi_cdcmpeq
-                0x0000a174                __aeabi_cdcmple
-                0x0000a184                __aeabi_dcmpeq
-                0x0000a198                __aeabi_dcmplt
-                0x0000a1ac                __aeabi_dcmple
-                0x0000a1c0                __aeabi_dcmpge
-                0x0000a1d4                __aeabi_dcmpgt
- .text          0x0000a1e8       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_unorddf2.o)
-                0x0000a1e8                __unorddf2
-                0x0000a1e8                __aeabi_dcmpun
- .text          0x0000a214       0x50 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixdfsi.o)
-                0x0000a214                __aeabi_d2iz
-                0x0000a214                __fixdfsi
+                0x00009b58        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+                0x00009b58                _getpid_r
+ .text._sbrk    0x00009b5c       0x1c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+                0x00009b5c                _sbrk
+ .text._exit    0x00009b78        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+                0x00009b78                _exit
+ .text          0x00009b7c      0x378 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+                0x00009b7c                __aeabi_drsub
+                0x00009b84                __aeabi_dsub
+                0x00009b84                __subdf3
+                0x00009b88                __aeabi_dadd
+                0x00009b88                __adddf3
+                0x00009e00                __floatunsidf
+                0x00009e00                __aeabi_ui2d
+                0x00009e20                __floatsidf
+                0x00009e20                __aeabi_i2d
+                0x00009e44                __aeabi_f2d
+                0x00009e44                __extendsfdf2
+                0x00009e88                __floatundidf
+                0x00009e88                __aeabi_ul2d
+                0x00009e98                __floatdidf
+                0x00009e98                __aeabi_l2d
+ .text          0x00009ef4      0x424 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
+                0x00009ef4                __aeabi_dmul
+                0x00009ef4                __muldf3
+                0x0000a148                __divdf3
+                0x0000a148                __aeabi_ddiv
+ .text          0x0000a318      0x110 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
+                0x0000a318                __gtdf2
+                0x0000a318                __gedf2
+                0x0000a320                __ltdf2
+                0x0000a320                __ledf2
+                0x0000a328                __nedf2
+                0x0000a328                __eqdf2
+                0x0000a328                __cmpdf2
+                0x0000a3a4                __aeabi_cdrcmple
+                0x0000a3b4                __aeabi_cdcmpeq
+                0x0000a3b4                __aeabi_cdcmple
+                0x0000a3c4                __aeabi_dcmpeq
+                0x0000a3d8                __aeabi_dcmplt
+                0x0000a3ec                __aeabi_dcmple
+                0x0000a400                __aeabi_dcmpge
+                0x0000a414                __aeabi_dcmpgt
+ .text          0x0000a428       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_unorddf2.o)
+                0x0000a428                __unorddf2
+                0x0000a428                __aeabi_dcmpun
+ .text          0x0000a454       0x50 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixdfsi.o)
+                0x0000a454                __aeabi_d2iz
+                0x0000a454                __fixdfsi
  *(.init)
- .init          0x0000a264        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crti.o
-                0x0000a264                _init
- .init          0x0000a268        0x8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtn.o
+ .init          0x0000a4a4        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crti.o
+                0x0000a4a4                _init
+ .init          0x0000a4a8        0x8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtn.o
  *(.fini)
- .fini          0x0000a270        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crti.o
-                0x0000a270                _fini
- .fini          0x0000a274        0x8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtn.o
+ .fini          0x0000a4b0        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crti.o
+                0x0000a4b0                _fini
+ .fini          0x0000a4b4        0x8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2696,99 +2685,106 @@ END GROUP
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x0000a27c        0xd CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
- *fill*         0x0000a289        0x3 
- .rodata        0x0000a28c       0x2e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- *fill*         0x0000a2ba        0x2 
+ .rodata        0x0000a4bc        0xd CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
+ *fill*         0x0000a4c9        0x3 
+ .rodata._ZL6CODE_1
+                0x0000a4cc       0x20 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .rodata._ZL6CODE_2
+                0x0000a4ec       0x20 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .rodata._ZL6CODE_3
+                0x0000a50c       0x20 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .rodata        0x0000a52c       0x51 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ *fill*         0x0000a57d        0x3 
  .rodata._svfprintf_r.str1.4
-                0x0000a2bc      0x1a7 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
+                0x0000a580      0x1a7 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
                                  0x42 (size before relaxing)
- *fill*         0x0000a463        0x1 
+ *fill*         0x0000a727        0x1 
  .rodata.zeroes.0
-                0x0000a464       0x10 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
+                0x0000a728       0x10 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
  .rodata.blanks.1
-                0x0000a474       0x10 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
+                0x0000a738       0x10 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
  .rodata.str1.4
-                0x0000a484       0x4c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+                0x0000a748       0x4c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
  .rodata._dtoa_r.str1.4
-                0x0000a484       0x81 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+                0x0000a748       0x81 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
  .rodata.__multadd.str1.4
-                0x0000a484       0x6e C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
- .rodata.p05.0  0x0000a484        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x0000a748       0x6e C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+ .rodata.p05.0  0x0000a748        0xc C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+ *fill*         0x0000a754        0x4 
  .rodata.__mprec_bigtens
-                0x0000a490       0x28 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x0000a490                __mprec_bigtens
+                0x0000a758       0x28 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x0000a758                __mprec_bigtens
  .rodata.__mprec_tens
-                0x0000a4b8       0xc8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x0000a4b8                __mprec_tens
+                0x0000a780       0xc8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x0000a780                __mprec_tens
  .rodata._ctype_
-                0x0000a580      0x101 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
-                0x0000a580                _ctype_
+                0x0000a848      0x101 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
+                0x0000a848                _ctype_
  .rodata.__assert_func.str1.4
-                0x0000a681       0x43 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+                0x0000a949       0x43 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
  .rodata._vfiprintf_r.str1.4
-                0x0000a681       0x2f C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
- *fill*         0x0000a681        0x3 
+                0x0000a949       0x2f C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+ *fill*         0x0000a949        0x3 
  .rodata.zeroes.0
-                0x0000a684       0x10 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x0000a94c       0x10 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
  .rodata.blanks.1
-                0x0000a694       0x10 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x0000a95c       0x10 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
  *(.eh_frame*)
- .eh_frame      0x0000a6a4        0x0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
- .eh_frame      0x0000a6a4        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtend.o
- .eh_frame      0x0000a6a8       0x50 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
- .eh_frame      0x0000a6f8       0x34 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
- .eh_frame      0x0000a72c       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
+ .eh_frame      0x0000a96c        0x0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
+ .eh_frame      0x0000a96c        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtend.o
+ .eh_frame      0x0000a970       0x50 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
+ .eh_frame      0x0000a9c0       0x34 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
+ .eh_frame      0x0000a9f4       0x2c C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
 
-.glue_7         0x0000a758        0x0
- .glue_7        0x0000a758        0x0 linker stubs
+.glue_7         0x0000aa20        0x0
+ .glue_7        0x0000aa20        0x0 linker stubs
 
-.glue_7t        0x0000a758        0x0
- .glue_7t       0x0000a758        0x0 linker stubs
+.glue_7t        0x0000aa20        0x0
+ .glue_7t       0x0000aa20        0x0 linker stubs
 
-.vfp11_veneer   0x0000a758        0x0
- .vfp11_veneer  0x0000a758        0x0 linker stubs
+.vfp11_veneer   0x0000aa20        0x0
+ .vfp11_veneer  0x0000aa20        0x0 linker stubs
 
-.v4_bx          0x0000a758        0x0
- .v4_bx         0x0000a758        0x0 linker stubs
+.v4_bx          0x0000aa20        0x0
+ .v4_bx         0x0000aa20        0x0 linker stubs
 
-.iplt           0x0000a758        0x0
- .iplt          0x0000a758        0x0 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
+.iplt           0x0000aa20        0x0
+ .iplt          0x0000aa20        0x0 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000a758                        __exidx_start = .
+                0x0000aa20                        __exidx_start = .
 
-.ARM.exidx      0x0000a758        0x8
+.ARM.exidx      0x0000aa20        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0000a758        0x8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crt0.o
+ .ARM.exidx     0x0000aa20        0x8 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crt0.o
                                  0x10 (size before relaxing)
- .ARM.exidx     0x0000a760        0x0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
+ .ARM.exidx     0x0000aa28        0x0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x0000a760        0x0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
+ .ARM.exidx     0x0000aa28        0x0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x0000a760        0x0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
+ .ARM.exidx     0x0000aa28        0x0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
                                   0x8 (size before relaxing)
-                0x0000a760                        __exidx_end = .
+                0x0000aa28                        __exidx_end = .
 
-.copy.table     0x0000a760        0xc
-                0x0000a760                        . = ALIGN (0x4)
-                0x0000a760                        __copy_table_start__ = .
-                0x0000a760        0x4 LONG 0xa76c LOADADDR (.data)
-                0x0000a764        0x4 LONG 0x1ffd0000 ADDR (.data)
-                0x0000a768        0x4 LONG 0x1d9 (SIZEOF (.data) / 0x4)
-                0x0000a76c                        __copy_table_end__ = .
+.copy.table     0x0000aa28        0xc
+                0x0000aa28                        . = ALIGN (0x4)
+                0x0000aa28                        __copy_table_start__ = .
+                0x0000aa28        0x4 LONG 0xaa34 LOADADDR (.data)
+                0x0000aa2c        0x4 LONG 0x1ffd0000 ADDR (.data)
+                0x0000aa30        0x4 LONG 0x1d9 (SIZEOF (.data) / 0x4)
+                0x0000aa34                        __copy_table_end__ = .
 
-.rel.dyn        0x0000a76c        0x0
- .rel.iplt      0x0000a76c        0x0 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
+.rel.dyn        0x0000aa34        0x0
+ .rel.iplt      0x0000aa34        0x0 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
 
-.zero.table     0x0000a76c        0x0
-                0x0000a76c                        . = ALIGN (0x4)
-                0x0000a76c                        __zero_table_start__ = .
-                0x0000a76c                        __zero_table_end__ = .
+.zero.table     0x0000aa34        0x0
+                0x0000aa34                        . = ALIGN (0x4)
+                0x0000aa34                        __zero_table_start__ = .
+                0x0000aa34                        __zero_table_end__ = .
                 [!provide]                        PROVIDE (__etext = LOADADDR (.data))
 
-.data           0x1ffd0000      0x764 load address 0x0000a76c
+.data           0x1ffd0000      0x764 load address 0x0000aa34
                 0x1ffd0000                        __data_start__ = .
  *(vtable)
  *(.data)
@@ -2850,17 +2846,17 @@ END GROUP
                 0x1ffd0764                        . = ALIGN (0x4)
                 0x1ffd0764                        __data_end__ = .
 
-.igot.plt       0x1ffd0764        0x0 load address 0x0000aed0
+.igot.plt       0x1ffd0764        0x0 load address 0x0000b198
  .igot.plt      0x1ffd0764        0x0 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
 
 .tm_clone_table
-                0x1ffd0764        0x0 load address 0x0000aed0
+                0x1ffd0764        0x0 load address 0x0000b198
  .tm_clone_table
                 0x1ffd0764        0x0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
  .tm_clone_table
                 0x1ffd0764        0x0 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtend.o
 
-.bss            0x1ffd0764      0xda0
+.bss            0x1ffd0764     0x2ba4
                 0x1ffd0764                        . = ALIGN (0x4)
                 0x1ffd0764                        __bss_start__ = .
  *(.bss)
@@ -2881,79 +2877,80 @@ END GROUP
  .bss.stcDES    0x1ffd0780       0x38 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
                 0x1ffd0780                stcDES
  .bss.rx_buffer
-                0x1ffd07b8      0x30c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x1ffd07b8      0xc0c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
                 0x1ffd07b8                rx_buffer
  .bss.tx_buffer
-                0x1ffd0ac4      0x30c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x1ffd0ac4                tx_buffer
- .bss.in        0x1ffd0dd0      0x100 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x1ffd0dd0                in
- .bss.out       0x1ffd0ed0      0x100 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x1ffd0ed0                out
- .bss.left_in   0x1ffd0fd0       0x80 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x1ffd0fd0                left_in
- .bss.right_in  0x1ffd1050       0x80 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x1ffd1050                right_in
- .bss.left_out  0x1ffd10d0       0x80 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x1ffd10d0                left_out
+                0x1ffd13c4      0xc0c CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x1ffd13c4                tx_buffer
+ .bss.in        0x1ffd1fd0      0x400 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x1ffd1fd0                in
+ .bss.out       0x1ffd23d0      0x400 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x1ffd23d0                out
+ .bss.left_in   0x1ffd27d0      0x200 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x1ffd27d0                left_in
+ .bss.right_in  0x1ffd29d0      0x200 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x1ffd29d0                right_in
+ .bss.left_out  0x1ffd2bd0      0x200 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x1ffd2bd0                left_out
  .bss.right_out
-                0x1ffd1150       0x80 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
-                0x1ffd1150                right_out
+                0x1ffd2dd0      0x200 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+                0x1ffd2dd0                right_out
+ .bss._ZZ4mainE12active_shift
+                0x1ffd2fd0        0x4 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
  .bss.completed.1
-                0x1ffd11d0        0x1 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
- *fill*         0x1ffd11d1        0x3 
- .bss.object.0  0x1ffd11d4       0x18 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
- .bss.__sf      0x1ffd11ec      0x138 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-                0x1ffd11ec                __sf
+                0x1ffd2fd4        0x1 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
+ *fill*         0x1ffd2fd5        0x3 
+ .bss.object.0  0x1ffd2fd8       0x18 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\crtbegin.o
+ .bss.__sf      0x1ffd2ff0      0x138 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x1ffd2ff0                __sf
  .bss.__stdio_exit_handler
-                0x1ffd1324        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-                0x1ffd1324                __stdio_exit_handler
- .bss.errno     0x1ffd1328        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
-                0x1ffd1328                errno
+                0x1ffd3128        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x1ffd3128                __stdio_exit_handler
+ .bss.errno     0x1ffd312c        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+                0x1ffd312c                errno
  .bss.__lock___malloc_recursive_mutex
-                0x1ffd132c        0x1 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x1ffd132c                __lock___malloc_recursive_mutex
- *fill*         0x1ffd132d        0x3 
+                0x1ffd3130        0x1 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x1ffd3130                __lock___malloc_recursive_mutex
+ *fill*         0x1ffd3131        0x3 
  .bss.__lock___atexit_recursive_mutex
-                0x1ffd1330        0x1 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x1ffd1330                __lock___atexit_recursive_mutex
- *fill*         0x1ffd1331        0x3 
+                0x1ffd3134        0x1 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x1ffd3134                __lock___atexit_recursive_mutex
+ *fill*         0x1ffd3135        0x3 
  .bss.__lock___sfp_recursive_mutex
-                0x1ffd1334        0x1 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x1ffd1334                __lock___sfp_recursive_mutex
- *fill*         0x1ffd1335        0x3 
- .bss.__atexit  0x1ffd1338        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
-                0x1ffd1338                __atexit
+                0x1ffd3138        0x1 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x1ffd3138                __lock___sfp_recursive_mutex
+ *fill*         0x1ffd3139        0x3 
+ .bss.__atexit  0x1ffd313c        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
+                0x1ffd313c                __atexit
  .bss.__malloc_current_mallinfo
-                0x1ffd133c       0x28 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-                0x1ffd133c                __malloc_current_mallinfo
+                0x1ffd3140       0x28 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                0x1ffd3140                __malloc_current_mallinfo
  .bss.__malloc_max_total_mem
-                0x1ffd1364        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-                0x1ffd1364                __malloc_max_total_mem
+                0x1ffd3168        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                0x1ffd3168                __malloc_max_total_mem
  .bss.__malloc_max_sbrked_mem
-                0x1ffd1368        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-                0x1ffd1368                __malloc_max_sbrked_mem
+                0x1ffd316c        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                0x1ffd316c                __malloc_max_sbrked_mem
  .bss.__malloc_top_pad
-                0x1ffd136c        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-                0x1ffd136c                __malloc_top_pad
+                0x1ffd3170        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                0x1ffd3170                __malloc_top_pad
  .bss.__atexit0
-                0x1ffd1370      0x190 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
-                0x1ffd1370                __atexit0
+                0x1ffd3174      0x190 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
+                0x1ffd3174                __atexit0
  .bss.heap_end.0
-                0x1ffd1500        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+                0x1ffd3304        0x4 C:/Users/jc7x9/OneDrive/DOKUME~1/HSKA-L~1/6C6BC~1.SEM/DIGITA~2/WORKSP~1/DSP_PR~1/DEPEND~1/GCC-13~1.REL/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
  *(COMMON)
-                0x1ffd1504                        . = ALIGN (0x4)
-                0x1ffd1504                        __bss_end__ = .
+                0x1ffd3308                        . = ALIGN (0x4)
+                0x1ffd3308                        __bss_end__ = .
 
-.heap           0x1ffd1504      0x404
-                0x1ffd1508                        . = ALIGN (0x8)
- *fill*         0x1ffd1504        0x4 
-                0x1ffd1508                        __end__ = .
-                0x1ffd1508                        PROVIDE (end = .)
-                0x1ffd1908                        . = (. + __HEAP_SIZE)
- *fill*         0x1ffd1508      0x400 
-                0x1ffd1908                        . = ALIGN (0x8)
-                0x1ffd1908                        __HeapLimit = .
+.heap           0x1ffd3308      0x400
+                0x1ffd3308                        . = ALIGN (0x8)
+                0x1ffd3308                        __end__ = .
+                0x1ffd3308                        PROVIDE (end = .)
+                0x1ffd3708                        . = (. + __HEAP_SIZE)
+ *fill*         0x1ffd3308      0x400 
+                0x1ffd3708                        . = ALIGN (0x8)
+                0x1ffd3708                        __HeapLimit = .
 
 .stack          0x1fffe000     0x1000
                 0x1fffe000                        . = ALIGN (0x8)
@@ -2967,7 +2964,7 @@ END GROUP
 OUTPUT(CDMA_RX.axf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000    0x442d6
+.debug_info     0x00000000    0x44394
  .debug_info    0x00000000      0x2d9 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
  .debug_info    0x000002d9      0x106 CMakeFiles/CDMA_RX.axf.dir/PDL/pdl.c.obj
  .debug_info    0x000003df     0x79a1 CMakeFiles/CDMA_RX.axf.dir/PDL/system_s6e2cc.c.obj
@@ -2981,10 +2978,10 @@ LOAD linker stubs
  .debug_info    0x00025eb8    0x16baf CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
  .debug_info    0x0003ca67     0x1a2a CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
  .debug_info    0x0003e491     0x2385 CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
- .debug_info    0x00040816     0x1c9d CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_info    0x000424b3     0x1e23 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+ .debug_info    0x00040816     0x1d5a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_info    0x00042570     0x1e24 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
-.debug_abbrev   0x00000000     0x2555
+.debug_abbrev   0x00000000     0x2552
  .debug_abbrev  0x00000000      0x20d CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
  .debug_abbrev  0x0000020d       0x8b CMakeFiles/CDMA_RX.axf.dir/PDL/pdl.c.obj
  .debug_abbrev  0x00000298      0x1d9 CMakeFiles/CDMA_RX.axf.dir/PDL/system_s6e2cc.c.obj
@@ -2998,8 +2995,8 @@ LOAD linker stubs
  .debug_abbrev  0x000014ab      0x487 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
  .debug_abbrev  0x00001932      0x28e CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
  .debug_abbrev  0x00001bc0      0x2ea CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
- .debug_abbrev  0x00001eaa      0x364 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_abbrev  0x0000220e      0x347 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+ .debug_abbrev  0x00001eaa      0x361 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_abbrev  0x0000220b      0x347 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
 .debug_aranges  0x00000000      0x688
  .debug_aranges
@@ -3066,7 +3063,7 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000483       0x41 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
-.debug_macro    0x00000000    0x44654
+.debug_macro    0x00000000    0x444a7
  .debug_macro   0x00000000       0xd6 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
  .debug_macro   0x000000d6      0xae4 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
  .debug_macro   0x00000bba      0x877 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
@@ -3188,11 +3185,10 @@ LOAD linker stubs
  .debug_macro   0x000431b8      0x4a1 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
  .debug_macro   0x00043659      0x4ba CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
  .debug_macro   0x00043b13       0x4c CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
- .debug_macro   0x00043b5f      0x4bd CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x0004401c      0x197 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_macro   0x000441b3      0x4a1 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+ .debug_macro   0x00043b5f      0x4a7 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_macro   0x00044006      0x4a1 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
-.debug_line     0x00000000     0xabda
+.debug_line     0x00000000     0xacb4
  .debug_line    0x00000000      0x63d CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
  .debug_line    0x0000063d      0x551 CMakeFiles/CDMA_RX.axf.dir/PDL/pdl.c.obj
  .debug_line    0x00000b8e      0x6c1 CMakeFiles/CDMA_RX.axf.dir/PDL/system_s6e2cc.c.obj
@@ -3203,29 +3199,29 @@ LOAD linker stubs
  .debug_line    0x00004aaf      0x5cd CMakeFiles/CDMA_RX.axf.dir/PDL/interrupts_fm4_type_b.c.obj
  .debug_line    0x0000507c      0x809 CMakeFiles/CDMA_RX.axf.dir/PDL/wm8731.c.obj
  .debug_line    0x00005885      0x58b CMakeFiles/CDMA_RX.axf.dir/utils/crt_dummy_syscalls.c.obj
- .debug_line    0x00005e10     0x10be CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
- .debug_line    0x00006ece      0xf17 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
- .debug_line    0x00007de5      0xe5d CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
- .debug_line    0x00008c42      0xf58 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_line    0x00009b9a     0x1040 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+ .debug_line    0x00005e10     0x1092 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
+ .debug_line    0x00006ea2      0xf17 CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
+ .debug_line    0x00007db9      0xe5d CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
+ .debug_line    0x00008c16     0x105e CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_line    0x00009c74     0x1040 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
-.debug_str      0x00000000   0x1d7387
- .debug_str     0x00000000   0x1d7387 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
+.debug_str      0x00000000   0x1d7369
+ .debug_str     0x00000000   0x1d7369 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj
                              0x17e23d (size before relaxing)
- .debug_str     0x001d7387   0x1b1190 CMakeFiles/CDMA_RX.axf.dir/PDL/pdl.c.obj
- .debug_str     0x001d7387   0x1b3ccc CMakeFiles/CDMA_RX.axf.dir/PDL/system_s6e2cc.c.obj
- .debug_str     0x001d7387   0x1b99b0 CMakeFiles/CDMA_RX.axf.dir/PDL/mfs.c.obj
- .debug_str     0x001d7387   0x1b8a01 CMakeFiles/CDMA_RX.axf.dir/PDL/clk.c.obj
- .debug_str     0x001d7387   0x1b9fd1 CMakeFiles/CDMA_RX.axf.dir/PDL/dstc.c.obj
- .debug_str     0x001d7387   0x1b8cd0 CMakeFiles/CDMA_RX.axf.dir/PDL/i2s.c.obj
- .debug_str     0x001d7387   0x1be839 CMakeFiles/CDMA_RX.axf.dir/PDL/interrupts_fm4_type_b.c.obj
- .debug_str     0x001d7387   0x1badae CMakeFiles/CDMA_RX.axf.dir/PDL/wm8731.c.obj
- .debug_str     0x001d7387     0x7895 CMakeFiles/CDMA_RX.axf.dir/utils/crt_dummy_syscalls.c.obj
- .debug_str     0x001d7387   0x1c9137 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
- .debug_str     0x001d7387   0x1c12ac CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
- .debug_str     0x001d7387   0x1c1862 CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
- .debug_str     0x001d7387   0x1c168a CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
- .debug_str     0x001d7387   0x1c1a28 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
+ .debug_str     0x001d7369   0x1b1190 CMakeFiles/CDMA_RX.axf.dir/PDL/pdl.c.obj
+ .debug_str     0x001d7369   0x1b3ccc CMakeFiles/CDMA_RX.axf.dir/PDL/system_s6e2cc.c.obj
+ .debug_str     0x001d7369   0x1b99b0 CMakeFiles/CDMA_RX.axf.dir/PDL/mfs.c.obj
+ .debug_str     0x001d7369   0x1b8a01 CMakeFiles/CDMA_RX.axf.dir/PDL/clk.c.obj
+ .debug_str     0x001d7369   0x1b9fd1 CMakeFiles/CDMA_RX.axf.dir/PDL/dstc.c.obj
+ .debug_str     0x001d7369   0x1b8cd0 CMakeFiles/CDMA_RX.axf.dir/PDL/i2s.c.obj
+ .debug_str     0x001d7369   0x1be839 CMakeFiles/CDMA_RX.axf.dir/PDL/interrupts_fm4_type_b.c.obj
+ .debug_str     0x001d7369   0x1badae CMakeFiles/CDMA_RX.axf.dir/PDL/wm8731.c.obj
+ .debug_str     0x001d7369     0x7895 CMakeFiles/CDMA_RX.axf.dir/utils/crt_dummy_syscalls.c.obj
+ .debug_str     0x001d7369   0x1c9138 CMakeFiles/CDMA_RX.axf.dir/utils/platform.cpp.obj
+ .debug_str     0x001d7369   0x1c12ad CMakeFiles/CDMA_RX.axf.dir/utils/utils.cpp.obj
+ .debug_str     0x001d7369   0x1c1863 CMakeFiles/CDMA_RX.axf.dir/utils/debug_utils.cpp.obj
+ .debug_str     0x001d7369   0x1c16a0 CMakeFiles/CDMA_RX.axf.dir/main.cpp.obj
+ .debug_str     0x001d7369   0x1c1a29 CMakeFiles/CDMA_RX.axf.dir/circular_buffer.cpp.obj
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/CDMA_RX.axf.dir/device/startup_S6E2CCAJOA.c.obj

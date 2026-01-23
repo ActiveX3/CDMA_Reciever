@@ -29,7 +29,6 @@ typedef enum
     mic_in 	= 0x15,  // Select Microphone In and disable bypass
 } audio_input;
 
-
 void init_platform (
     uint32_t baud_rate, 
     sampling_rate sample_rate, 
