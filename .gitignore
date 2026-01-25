@@ -6,3 +6,5 @@ generated_signals/*.wav
 original_signals/*.wav
 tools/CDMA_TXv2.py
 tools/CDMA_RX.py
+# Ignore temporary files
+*.tmp 
