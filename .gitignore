@@ -1,6 +1,6 @@
 # Ignore generated audio signal files
-.gitignore
 received_signals/speech.wav
+original_audiofiles/*.wav
 reference_signals/*.wav
 generated_signals/*.wav
 original_signals/*.wav
