@@ -22,13 +22,25 @@ int16_t right_out[BLOCK_SIZE];
 //Walsh-Codes
 #define code_length 8
 
-const int CODE_1[] = {1, -1,  1, -1,  1, -1,  1, -1};
+const int CODE_1[] = {-1, -1,  1,  1, -1, -1,  1,  1};
 
-const int CODE_2[] = {1,  1, -1, -1,  1,  1, -1, -1};
+const int CODE_2[] = {-1,  1, -1,  1, -1,  1, -1,  1};
 
-const int CODE_3[] = {1, -1, -1,  1,  1, -1, -1,  1};
+const int CODE_3[] = {-1, -1, -1, -1,  1,  1,  1,  1};
 
-
+void set_led_color(int channel)
+{
+    gpio_set(LED_R, HIGH);
+    gpio_set(LED_G, HIGH);
+    gpio_set(LED_B, HIGH);
+    
+    switch(channel)
+    {
+        case 1: gpio_set(LED_G, LOW); break; //green
+        case 2: gpio_set(LED_R, LOW);gpio_set(LED_B, LOW); break; // red +blue = purple
+        case 3: gpio_set(LED_R, LOW);gpio_set(LED_G, LOW); break; // red + green = yellow
+    }
+}
 
 int main()
 {
@@ -59,7 +71,7 @@ int main()
     //currently selected code
     const int *current_code = CODE_1;
     int current_channel = 1;
-
+    set_led_color(1);
     while(true)
     {
         // step 1: read block of samples from input buffer, data is copied from rx_buffer to in
@@ -71,9 +83,9 @@ int main()
         if(gpio_get(USER_BUTTON) == 0){
             isPressed = true;
         }
-
         // on button release, change channel
         if(isPressed && gpio_get(USER_BUTTON) == 1){
+            
           if(current_channel == 1){
             current_code = CODE_2;
             current_channel = 2;
@@ -88,6 +100,10 @@ int main()
             current_channel = 1;
             debug_printf("Kanal 1\n");
           }
+          
+          // LED Farbe aktualisieren
+          set_led_color(current_channel);
+          
           isPressed = false;
         }
               
@@ -136,13 +152,12 @@ int main()
             accL += left_in[n]*current_code[(n+active_shift)%code_length];
             //accR += right_in[n]*CODE_1[n%15]; due mono not needed       
            
-            // check if end of code is reached
+            // check if end of code isj reached
             if(n%code_length==code_length-1){
               int result = accL / code_length; //Divide by code length to avoid clipping
                 
 
                
-                //Er erwartet immernoch 48Khz aber haben wir ja nicht mehr. Deswegen müssen die letzen werte alle mit gleichem Wert aufgefüllt werden
                 for(int k = 0; k < code_length; k++) 
                 {
                     left_out[n - k] = result;
@@ -159,9 +174,6 @@ int main()
 
         // step 5: write block of samples to output buffer, data is copied from out to tx_buffer
         while(!tx_buffer.write(out));
-
-        gpio_set(LED_B, HIGH);			// LED_B off
-        gpio_set(TEST_PIN, LOW);        // Test Pin Low
     }
 
     // fail-safe, never return from main on a microcontroller
@@ -197,4 +209,3 @@ uint32_t* get_new_rx_buffer_ptr()
     }
     return temp;
 }
-
