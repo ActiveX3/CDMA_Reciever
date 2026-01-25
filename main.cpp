@@ -101,37 +101,37 @@ int main()
               
         //find best shift
         int best_candidate = active_shift; //variable to store the best candidate for the new shift
-        int32_t max_energy = -1; //maximum energy found
-        int32_t current_active_energy = 0; //energy of the currently active shift
+        int32_t max_corr = -1; //maximum correlation found
+        int32_t current_active_corr = 0; //correlation of the currently active shift
 
        //Test all possible shifts
         for(int s = 0; s < code_length; s++) 
         {
-            int32_t current_energy = 0;
+            int32_t correlation = 0;
             
-           //Calculate energy for this shift for the whole block
+           //Calculate correlation for this shift for the whole block
             for(int i = 0; i < BLOCK_SIZE; i++) {
-                current_energy += left_in[i] * current_code[(i + s) % code_length];
+                correlation += left_in[i] * current_code[(i + s) % code_length];
             }
             
-            if(current_energy < 0) current_energy = -current_energy;//Absolute
+            if(correlation < 0) correlation = -correlation;//Absolute
 
-           //Store maximum energy
+           //Store maximum correlation of the currently active shift
             if (s == active_shift) {
-                current_active_energy = current_energy;
+                current_active_corr = correlation;
             }
 
             //if this shift is better, store it
-            if(current_energy > max_energy) {
-                max_energy = current_energy;
+            if(correlation > max_corr) {
+                max_corr = correlation;
                 best_candidate = s;
             }
         }
-
-        //If the new candidate has 20% more energy than the old one, change the shift.
+        
+        //only switch shift if new correlation is 20% stronger        
         //This avoids changing the shift too often due to noise.
         //has no effect in a noiseless environment
-        if (max_energy > current_active_energy*12/10) {
+        if (max_corr > current_active_corr*12/10) {
             active_shift = best_candidate;
         }
 
