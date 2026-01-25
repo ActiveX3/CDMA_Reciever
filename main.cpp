@@ -1,15 +1,7 @@
-/*
- * Author: Jan Eberhardt
- */
-
 #include "global.h"
 
-
-
-// using the hello_world_circ_buffer to verify whether the hardware setup is working correctly
 CircularBuffer rx_buffer;
 CircularBuffer tx_buffer;
-
 
 // the following arrays/buffers are required in order to loop the data from the input to the output
 uint32_t in[BLOCK_SIZE];
@@ -89,19 +81,19 @@ int main()
           if(current_channel == 1){
             current_code = CODE_2;
             current_channel = 2;
-            debug_printf("Kanal 2\n");
+            debug_printf("ch2\n");
 
           }else if(current_channel == 2){
             current_code = CODE_3;
             current_channel = 3;
-            debug_printf("Kanal 3\n");
+            debug_printf("ch3\n");
           }else if(current_channel == 3){
             current_code = CODE_1;
             current_channel = 1;
-            debug_printf("Kanal 1\n");
+            debug_printf("ch1\n");
           }
           
-          // LED Farbe aktualisieren
+          // update LED colors
           set_led_color(current_channel);
           
           isPressed = false;
@@ -155,20 +147,17 @@ int main()
             // check if end of code isj reached
             if(n%code_length==code_length-1){
               int result = accL / code_length; //Divide by code length to avoid clipping
-                
-
-               
+                               
                 for(int k = 0; k < code_length; k++) 
                 {
                     left_out[n - k] = result;
-                    right_out[n - k] = result; // Mono on both ears
+                    right_out[n - k] = result; // mono output
                 }
                 
                 accL = 0;    
             }
         }
         
-
         // step 4: merge two channels into one sample
         convert_2ch_to_audio_sample(left_out, right_out, out);
 
